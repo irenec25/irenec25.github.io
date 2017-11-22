@@ -35,6 +35,7 @@ h6 {
     letter-spacing: 1px;
 }
 
+
 p {
     margin: 0 0 20px;
     font-size: 16px;
@@ -79,7 +80,7 @@ a:focus {
 }
 
 .navbar-brand h1{
-	color: #fff;
+    color: #fff;
   font-size: 20px;
   line-height: 40px;
 }
@@ -89,7 +90,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.8);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -617,6 +618,7 @@ Parallax
 
 .btn {
 	border-radius: 0;
+    text-transform: uppercase;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
@@ -772,7 +774,7 @@ Parallax
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #000;
+        background-color: #f2cdc9 !important;
     }
 
     .navbar-custom.top-nav-collapse {
