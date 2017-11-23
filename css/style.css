@@ -347,7 +347,7 @@ hr {
 
 .intro .slogan h4 {
     color: #3c5743;
-    font-size: 22px;
+    font-size: 25px;
     font-family: Lato, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
@@ -553,17 +553,27 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 ============================ */
 
 footer {
-	text-align: center;
-	padding: 50px 0 ;
+	text-align: left;
+	padding: 30px 0px 20px 0px ;
 	
 }
 
 footer p {
-	color: #f8f8f8;
+	color: #000000;
+}
+
+footer h1 {
+    font-size: 15px;
+	letter-spacing: 1px;
+    color: #444;
+	text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
 }
 
 .credits, .credits a {
-    color: #fff;
+    color: #000000;
+    text-align: center;
 }
 
 /* ==========================
