@@ -718,11 +718,7 @@ Parallax
 }
 
 .form-control {
-    background-color: transparent;
-    
-
 }
-
 
 .btn-circle {
     width: 70px;
@@ -864,6 +860,7 @@ Parallax
         letter-spacing: 1px;
         background: 0 0;
         background-color: #f2cdc9 !important;
+        
     }
 	
     .intro {
