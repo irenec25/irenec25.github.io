@@ -101,9 +101,9 @@ h6 {
 
 /* line 91, ../sass/style.scss */
 p {
-  margin: 0 0 20px;
-  font-size: 16px;
-  line-height: 1.6em;
+  margin: 20px;
+  font-size: 15px;
+  line-height: 1.5em;
 }
 
 /* line 97, ../sass/style.scss */
@@ -413,7 +413,7 @@ hr {
 
 /* line 364, ../sass/style.scss */
 #intro.intro {
-  padding: 20% 0 0 0;
+  padding: 24% 0 0 0;
 }
 
 /* line 368, ../sass/style.scss */
@@ -467,7 +467,7 @@ hr {
 /* line 413, ../sass/style.scss */
 .boxed-grey {
   background: #f9f9f9;
-  padding: 20px;
+  padding-bottom: 5px;
 }
 
 /* line 418, ../sass/style.scss */
@@ -825,7 +825,7 @@ ul.list-inline li {
 .credits, .credits a {
   color: rgba(133, 132, 132, 0.88);
   text-align: center;
-  padding-top: 30px;
+  padding-top: 40px;
   font-size: 12px;
   font-style: italic;
 }
@@ -1136,5 +1136,18 @@ Parallax
 }
 /* line 955, ../sass/style.scss */
 #email_id::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.42) !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.transparent {
+    background:rgba(255,255,255,0.5);
+}
+
+#product_img{
+    height: 280px;
+    width: 300px;
+}
+#product_img:hover{
+    opacity:0.3;
+    background:#FFFFFF;
 }
