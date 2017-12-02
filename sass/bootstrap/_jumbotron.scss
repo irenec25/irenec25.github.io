@@ -15,10 +15,16 @@
     color: $jumbotron-heading-color;
   }
 
+  h2 {
+    text-align: left;
+    font-size: 50px;
+  }
+
   p {
     margin-bottom: ($jumbotron-padding / 2);
     font-size: $jumbotron-font-size;
     font-weight: 200;
+    text-align: left;
   }
 
   > hr {

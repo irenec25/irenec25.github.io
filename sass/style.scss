@@ -412,7 +412,6 @@ hr {
 
 .boxed-grey {
 	background: #f9f9f9;
-	padding: 20px;
 }
 
 .team h5 {
@@ -873,7 +872,7 @@ Parallax
     }
 	
     .intro {
-        height: 90%;
+        height: 100%;
         padding: 0;
     }
 
@@ -908,7 +907,7 @@ Parallax
 @media (max-width:480px) {
 
 	.navbar-custom .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.8);
 	}
 	
 	.navbar.navbar-custom.navbar-fixed-top {
@@ -927,7 +926,33 @@ Parallax
 		border: 2px solid #fff;
 		border-radius: 50%;
 		font-size: 20px;
-	}
+    }
+
+    .intro {
+        .slogan {
+            h2 {
+                font-size: 40px;
+            }
+        }
+        background-image: none;
+        &:after {
+            content: "";
+            background: url(../img/floralbg.jpg) no-repeat center center fixed;
+            opacity: 0.5;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;   
+            background-size: cover;
+        }
+    }
+
+    .navbar-header {
+        background-color: black;
+        height: 50px !important;
+    }
 	
 }
 
@@ -937,13 +962,21 @@ Parallax
 }
 
 .img-bg {
-    background: url(https://img00.deviantart.net/7b50/i/2009/278/c/e/generic_glowy_wallpaper_by_dividedbyzero.jpg) no-repeat center center fixed; 
+    background: url(../img/products/lemon.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     color: white;
     padding: 40px 20px;
+}
+
+.large-img {
+    height: 600px;
+}
+
+.about-sub-section {
+    margin-bottom: 100px;
 }
 
 #email_id {
@@ -956,3 +989,4 @@ Parallax
         color: rgba(0, 0, 0, 0.6) !important;
     }
 }
+
