@@ -979,6 +979,10 @@ Parallax
     margin-bottom: 100px;
 }
 
+.about-above {
+    margin-top: 80px;
+}
+
 #email_id {
     border-top: none;
     border-left: none;
@@ -990,3 +994,31 @@ Parallax
     }
 }
 
+.padding-bottom {
+    padding: 0 0 10px !important;
+}
+
+.service-section {
+    padding-top: 50px !important;
+    padding-bottom: 80px !important;
+}
+
+.testimonial-title {
+    font-size: 45px;
+    letter-spacing: 1px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 18px;
+}
+
+.testimonial-user {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 18px;
+}

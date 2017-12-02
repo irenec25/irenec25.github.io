@@ -1164,6 +1164,11 @@ Parallax
 }
 
 /* line 982, ../sass/style.scss */
+.about-above {
+  margin-top: 80px;
+}
+
+/* line 986, ../sass/style.scss */
 #email_id {
   border-top: none;
   border-left: none;
@@ -1171,7 +1176,40 @@ Parallax
   color: black;
   font-style: italic;
 }
-/* line 988, ../sass/style.scss */
+/* line 992, ../sass/style.scss */
 #email_id::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* line 997, ../sass/style.scss */
+.padding-bottom {
+  padding: 0 0 10px !important;
+}
+
+/* line 1001, ../sass/style.scss */
+.service-section {
+  padding-top: 50px !important;
+  padding-bottom: 80px !important;
+}
+
+/* line 1006, ../sass/style.scss */
+.testimonial-title {
+  font-size: 45px;
+  letter-spacing: 1px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 18px;
+}
+
+/* line 1016, ../sass/style.scss */
+.testimonial-user {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 18px;
 }
